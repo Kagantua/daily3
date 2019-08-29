@@ -104,9 +104,10 @@ class Student:
         self.__name=name  #保证在类的外部不可以进行访问
         self.age=age
 
+
 pony = Student("qq",22);
 print(pony.age)
-
+print("hello")
 
 
 #class collage(student)实现college继承student
